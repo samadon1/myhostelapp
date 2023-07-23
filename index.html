@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Search</title>
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #search-bar {
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .result {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Hostel App Search</h1>
+  <input type="text" id="search-bar" list="suggestions" placeholder="Search for a residence...">
+  <datalist id="suggestions"></datalist>
+  <div id="search-results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
